@@ -1,0 +1,100 @@
+/* ===== GLOBAL BACKGROUND ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* ===== CONTAINER CARD STYLE ===== */
+
+.card {
+    border: none;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+    backdrop-filter: blur(8px);
+}
+
+/* ===== BUTTON STYLE ===== */
+
+.btn {
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 8px 18px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #224abe, #1a3aa5);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #1cc88a, #13855c);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #e74a3b, #c0392b);
+    border: none;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* ===== AUTH PAGES ===== */
+
+.auth-card {
+    max-width: 420px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* ===== TABLE ===== */
+
+.table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* ===== BADGE ===== */
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+}
