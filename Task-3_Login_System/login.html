@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" href="style.css">
+
+<script>
+
+function validateForm(){
+
+let username=document.getElementById("username").value;
+let password=document.getElementById("password").value;
+let error=document.getElementById("error");
+
+if(username=="" || password==""){
+error.innerHTML="Please fill all fields";
+return false;
+}
+
+if(password.length<4){
+error.innerHTML="Password must be at least 4 characters";
+return false;
+}
+
+return true;
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h2>Login System</h2>
+
+<form action="login.php" method="POST" onsubmit="return validateForm()">
+
+<input type="text" id="username" name="username" placeholder="Username">
+
+<input type="password" id="password" name="password" placeholder="Password">
+
+<p id="error"></p>
+
+<button type="submit">Login</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
