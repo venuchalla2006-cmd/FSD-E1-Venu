@@ -1,0 +1,19 @@
+body{
+font-family: Arial;
+text-align:center;
+margin-top:50px;
+}
+
+input,textarea{
+padding:8px;
+width:250px;
+}
+
+input:hover,textarea:hover{
+background-color:#f0f8ff;
+}
+
+span{
+color:red;
+font-size:12px;
+}
